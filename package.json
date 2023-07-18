@@ -12,7 +12,7 @@
   },
   "keywords": [],
   "author": "11627685@qq.com",
-  "license": "ISC",
+  "license": "Apache 2.0",
   "devDependencies": {
     "@babel/core": "^7.22.8",
     "@babel/preset-env": "^7.22.7",
