@@ -1,0 +1,87 @@
+import Provider from "./Provider.js"
+import References from "./References.js"
+import StampAnnot from "./StampAnnot.js"
+import Seal from "./SealFile/Seal.js"
+
+
+export default class SingedInfo {
+    constructor(docs) {
+        this.docs = docs;
+        /*创建签名时所使用的签章组件提供者信息*/
+        this.provider = new Provider(docs);
+        /* 
+        签名方法，记录安全模块返回的签名算法代码，以便验证时使用
+        */
+        this.signatureMethod = '';
+
+        /* 签名时间，记录安全模块返回的签名时间，以便验证时使用*/
+        this.signatureDateTime = '';
+
+        /*
+        包内文件计算所得的摘要记录列表
+        一个受本次签名保护的包内文件对应一个Reference节点
+        */
+        this.references = new References(docs);
+
+        /*
+       本签名关联的外观，该节点可出现多次*/
+
+        this.stampAnnot = [];
+
+
+        //电子印章信息
+        this.sealLoc = null;
+
+
+    }
+
+
+    ParseFromXml(xml,baseLoc) {
+
+
+        if (xml.Provider != null)
+            this.provider.ParseFromXml(xml.Provider);
+
+        if (xml.SignatureMethod != null)
+            this.signatureMethod = xml.SignatureMethod.toString();
+
+        if (xml.SignatureDateTime != null)
+            this.signatureDateTime = xml.SignatureDateTime.toString();
+
+        if (xml.References != null)
+            this.references.ParseFromXml(xml.References);
+
+        if (xml.StampAnnot != null) {
+            if (xml.StampAnnot != null && Array.isArray(xml.StampAnnot)) {
+                for (var n = 0; n < xml.StampAnnot.length; n++) {
+                    var texml = xml.StampAnnot[n];
+                    let docBody = new StampAnnot(this.docs);
+                    docBody.ParseFromXml(texml);
+                    this.stampAnnot.push(docBody);
+                }
+            }
+            else if (xml.StampAnnot != null) {
+                let docBody = new StampAnnot(this.docs);
+                docBody.ParseFromXml(xml.StampAnnot);
+                this.stampAnnot.push(docBody);
+            }
+        }
+
+
+        if (xml.Seal != null)
+        {
+            this.sealLoc=xml.Seal.BaseLoc.toString();
+            this.sealdate = this.docs.get('Signs/' + baseLoc.replace('Signature.xml', this.sealLoc));
+            this.seal=new Seal();
+            this.seal.Parse(this.sealdate);
+            console.log('aaaaaaaaaaaa')
+           
+           
+        }
+            
+
+    }
+
+}
+
+

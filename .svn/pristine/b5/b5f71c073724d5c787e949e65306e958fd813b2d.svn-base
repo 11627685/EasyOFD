@@ -1,0 +1,66 @@
+
+import SingedInfo from "./SingedInfo.js"
+
+import SignatureFile from "./SealFile/Signature.js";
+
+
+export default class Signature {
+    constructor(docs) {
+        this.docs = docs;
+        /* 签名或签章的标识*/
+        this.id = '';
+        /* 签名节点的类型，目前规定了两个可选值，Scal表示是安全签章，Sign
+       表示是纯数字签名*/
+        this.type = '';
+
+        /* 指向包内的签名描述文件*/
+        this.baseLoc = '';
+
+        this.singedInfo = new SingedInfo(this.docs,this);
+
+        /* 地址
+        签名值指向包内的一个二进制文件,该文件存放数字签名或签章结果。
+        该值需满足的密码安全要求在其他规范中限定。*/
+        this.signedValue = '';
+ 
+
+    }
+
+    ParseFromXml(xml) {
+        if (xml._ID != null)
+            this.id = xml._ID.toString();
+
+        if (xml._Type != null)
+            this.type = xml._Type.toString();
+
+        if (xml._BaseLoc != null) {
+            this.baseLoc = xml._BaseLoc.toString();
+
+            if (this.baseLoc.concat('Doc')) {
+                this.baseLoc = this.baseLoc.replace('/Doc_0/Signs/', '');
+            }
+            let signxml = this.docs.get('Signs/' + this.baseLoc).Signature;
+
+            if (signxml.SignedValue != null) {
+                this.signedValue = signxml.SignedValue.toString();
+                if (this.signedValue.concat('Doc')) {
+                    this.signedValue = this.signedValue.replace('/Doc_0/Signs/', '');
+                }
+                this.signedate = this.docs.get('Signs/Sign_0/' + this.signedValue);
+                this.signature = new SignatureFile();
+                this.signature.Parse(this.signedate);
+            }
+            if (signxml.SignedInfo != null)
+                this.singedInfo.ParseFromXml(signxml.SignedInfo, this.baseLoc);
+        }
+    }
+
+    Draw(ctx, pageNow) {
+
+        this.singedInfo.Draw(ctx, pageNow);
+
+    }
+
+}
+
+

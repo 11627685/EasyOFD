@@ -1,0 +1,17 @@
+
+
+
+export default class INTEGER{
+     
+    constructor() {
+        
+        this.elementType='INTEGER';
+        this.ocxNumber=2;
+        this.hexNumber=0x2;
+
+
+        
+    }
+     
+   
+}
