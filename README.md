@@ -6,7 +6,7 @@
  1）jszip：解决解压文件。  
  2）x2js: 解决XML文件到JS转换  
  3）easyjbig2: 解决ofd内部使用jb2文件存储的图像转换，若你的项目中没有这类文件，可以不加载。  
- 该控件着重页面展示，主要完成了图元的解释和输出，展示了电子印章，并未对签名和签封内容进行核实。
+ 该控件着重页面展示，主要完成了图元的文本、图片和路径的解释和输出，展示了电子印章，并未对其他音频、视频、动画、签名、签封等内容进行处理。
 
 # 一、背景
 OFD（Open Fixed-layout Document）是一种开放式固定布局文档格式，用于存储和交换电子文档。  
@@ -28,12 +28,12 @@ OFD文件的应用广泛，包括电子出版、电子文档管理、电子归�
 # 二、执行标准
 
 ## 2.1 板式文档
-  执行国家版式文档格式标准——《GB/T 33190-2016电子文件存储与交换格式-版式文档》  
-  标准链接：
+  执行国家版式文档格式标准——《GB/T 33190-2016 电子文件存储与交换格式 版式文档》  Electronic files storage and exchange formats—Fixed layout documents
+  标准链接：https://openstd.samr.gov.cn/bzgk/gb/newGbInfo?hcno=3AF6682D939116B6F5EED53D01A9DB5D
 
 ## 2.2 电子印章、电子签章
-执行国家版式文档格式标准——《  GB/T 38540-2020安全电子签章密码技术规范》 
-标准链接：http://c.gb688.cn/bzgk/gb/showGb?type=online&hcno=EBF1360C272E40E7A8B9B32ED0724AB1
+执行国家版式文档格式标准——《GB/T 38540-2020 信息安全技术 安全电子签章密码技术规范》 Information security technology—Technical specification secure electronic seal signature cryptography
+标准链接：https://openstd.samr.gov.cn/bzgk/gb/newGbInfo?hcno=EBF1360C272E40E7A8B9B32ED0724AB1
 
 # 三、使用方法  
 ## 3.1 HTML使用
