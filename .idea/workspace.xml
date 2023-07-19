@@ -5,84 +5,8 @@
       <change afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/EasyOFD.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/EasyOFD.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EasyOFD.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/EasyOFD.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Doc.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Doc.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/DocBody.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/DocBody.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/DocInfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/DocInfo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Document/Attributes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Document/Attributes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Document/Bookmark.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Document/Bookmark.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Document/CommonData.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Document/CommonData.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Document/Content.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Document/Content.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Document/Document.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Document/Document.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Document/Layer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Document/Layer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Document/MultiMedia.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Document/MultiMedia.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Document/OutlineElem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Document/OutlineElem.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Document/Page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Document/Page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Document/PageArea.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Document/PageArea.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Document/PageBlock.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Document/PageBlock.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Document/Pages.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Document/Pages.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Document/Permissions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Document/Permissions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Document/Preferences.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Document/Preferences.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Document/Res.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Document/Res.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Document/Template.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Document/Template.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Document/TemplatePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Document/TemplatePage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Graphic/Arc.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Graphic/Arc.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Graphic/Area.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Graphic/Area.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Graphic/Path.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Graphic/Path.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Graphic/Region.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Graphic/Region.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Image/Border.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Image/Border.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Image/Image.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Image/Image.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/OFD.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/OFD.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Page/Clip.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Page/Clip.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Page/Color.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Page/Color.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Page/ColorSpace.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Page/ColorSpace.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Page/GraphicUnit.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Page/GraphicUnit.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Page/Pattern.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Page/Pattern.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Signature/OFDImage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Signature/OFDImage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Signature/Provider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Signature/Provider.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Signature/Reference.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Signature/Reference.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Signature/References.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Signature/References.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Signature/SealFile/2020/CertDigestObj.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Signature/SealFile/2020/CertDigestObj.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Signature/SealFile/2020/CertList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Signature/SealFile/2020/CertList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Signature/SealFile/2020/ESPictrueInfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Signature/SealFile/2020/ESPictrueInfo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Signature/SealFile/2020/ESPropertyInfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Signature/SealFile/2020/ESPropertyInfo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Signature/SealFile/2020/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Signature/SealFile/2020/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Signature/SealFile/2020/Seal.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Signature/SealFile/2020/Seal.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Signature/SealFile/2020/SealInfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Signature/SealFile/2020/SealInfo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Signature/SealFile/2020/Sign.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Signature/SealFile/2020/Sign.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Signature/SealFile/2020/Signature.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Signature/SealFile/2020/Signature.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Signature/SealFile/CertDigestObj.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Signature/SealFile/CertDigestObj.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Signature/SealFile/CertList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Signature/SealFile/CertList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Signature/SealFile/ESPictrueInfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Signature/SealFile/ESPictrueInfo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Signature/SealFile/ESPropertyInfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Signature/SealFile/ESPropertyInfo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Signature/SealFile/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Signature/SealFile/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Signature/SealFile/Seal.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Signature/SealFile/Seal.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Signature/SealFile/SealInfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Signature/SealFile/SealInfo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Signature/SealFile/Signature.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Signature/SealFile/Signature.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Signature/SealFile/base/BITSTRING.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Signature/SealFile/base/BITSTRING.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Signature/SealFile/base/IA5String.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Signature/SealFile/base/IA5String.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Signature/SealFile/base/IDENTIFIER.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Signature/SealFile/base/IDENTIFIER.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Signature/SealFile/base/INTEGER.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Signature/SealFile/base/INTEGER.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Signature/SealFile/base/OctetString.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Signature/SealFile/base/OctetString.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Signature/SealFile/base/OctetsType.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Signature/SealFile/base/OctetsType.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Signature/SealFile/base/PrintableString.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Signature/SealFile/base/PrintableString.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Signature/SealFile/base/TLV.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Signature/SealFile/base/TLV.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Signature/SealFile/base/UTF8String.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Signature/SealFile/base/UTF8String.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Signature/Signature.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Signature/Signature.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Signature/Signatures.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Signature/Signatures.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Signature/SingedInfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Signature/SingedInfo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Signature/StampAnnot.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Signature/StampAnnot.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Text/CGTransform.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Text/CGTransform.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Text/Font.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Text/Font.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Text/Text.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Text/Text.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Text/TextCode.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Text/TextCode.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Until/ReadFromZip.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Until/ReadFromZip.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/View/View.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/View.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +23,16 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/images" />
     <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\project\EasyOFD\images" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\project\EasyOFD\images" />
+    </key>
   </component>
   <component name="SvnConfiguration" cleanupOnStartRun="true">
     <configuration>C:\Users\Administrator\AppData\Roaming\Subversion</configuration>
@@ -146,6 +79,7 @@
       <workItem from="1689598436237" duration="1304000" />
       <workItem from="1689678460956" duration="33000" />
       <workItem from="1689682690529" duration="44000" />
+      <workItem from="1689768447223" duration="671000" />
     </task>
     <task id="LOCAL-00001">
       <created>1688687310104</created>
@@ -287,7 +221,28 @@
       <option name="project" value="LOCAL" />
       <updated>1689600134568</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021">
+      <created>1689768500513</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1689768500513</updated>
+    </task>
+    <task id="LOCAL-00022">
+      <created>1689768918454</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1689768918454</updated>
+    </task>
+    <task id="LOCAL-00023">
+      <created>1689768985799</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1689768985799</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -297,10 +252,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="656" y="165" width="1315" height="1129" key="CommitChangelistDialog2" timestamp="1689682729730">
+    <state x="656" y="165" width="1315" height="1129" key="CommitChangelistDialog2" timestamp="1689768984763">
       <screen x="0" y="0" width="2560" height="1392" />
     </state>
-    <state x="656" y="165" width="1315" height="1129" key="CommitChangelistDialog2/0.0.2560.1392@0.0.2560.1392" timestamp="1689682729730" />
+    <state x="656" y="165" width="1315" height="1129" key="CommitChangelistDialog2/0.0.2560.1392@0.0.2560.1392" timestamp="1689768984763" />
     <state x="355" y="271" width="2048" height="1142" key="DiffContextDialog" timestamp="1689599009067">
       <screen x="0" y="0" width="2560" height="1392" />
     </state>

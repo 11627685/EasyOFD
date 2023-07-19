@@ -52,7 +52,7 @@ export default class Path extends GraphicUnit {
         //     console.log('aaa');
         // }
         ctx.save();
-        ctx.globalCompositeOperation = 'destination-over';
+       // ctx.globalCompositeOperation = 'destination-over';
         let drawArray = this.abbreviatedData.split(' ');
         let moveIndex = 0;
         if (this.stocke) {

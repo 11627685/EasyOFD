@@ -2,3 +2,7 @@ node_modules
 .idea
 .svn
 
+.svn/wc.db
+.idea/workspace.xml
+.idea/workspace.xml
+.idea/workspace.xml

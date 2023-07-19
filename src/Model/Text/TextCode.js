@@ -49,7 +49,7 @@ export default class TextCode {
     Draw(ctx, text) {
         let ctm = text.cTM;
         ctx.save();
-        ctx.globalCompositeOperation = 'destination-over';
+       // ctx.globalCompositeOperation = 'destination-over';
         if (ctm != null && ctm.a != 0 && ctm.b != 0 && ctm.c != 0 && ctm.d != 0) {
 
             let angleInRadians = Math.atan2(ctm.b, ctm.a);
