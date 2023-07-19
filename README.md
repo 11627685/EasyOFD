@@ -48,8 +48,10 @@ OFD文件的应用广泛，包括电子出版、电子文档管理、电子归�
 	<script type="text/javascript">
 
 	function load(){
-    let yourElement=document.getElementById("yourElementId");
-	   let easyOfd =  new EasyOFD('myofdID', yourElement);
+            let yourElement=document.getElementById("yourElementId");
+	    let easyOfd =  new EasyOFD('myofdID', yourElement);
+		//你的文件url地址下载后传递给 loadFromBlob方法 
+            easyOfd.loadFromBlob(blob);
 	}
 	</script>
 
