@@ -37,6 +37,52 @@ OFD文件的应用广泛，包括电子出版、电子文档管理、电子归�
 
 # 三、使用方法  
 ## 3.1 HTML使用
+```html
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	
+	<script type="text/javascript">
+
+	function load(){
+    let yourElement=document.getElementById("yourElementId");
+	   let easyOfd =  new EasyOFD('myofdID', yourElement);
+	}
+	</script>
+
+<style>
+	.OfdButton{
+	  padding: 10px 20px;
+	  background-color: #007bff;
+	  color: #fff;
+	  border: none;
+	  border-radius: 5px;
+	  cursor: pointer;
+	  margin-right: 10px;
+	}
+  </style>
+
+	
+	<body onload="load()" style="
+	    margin: 0;">
+
+  <div id='yourElement'>
+
+  </div>
+	<body>
+	</body>
+	<script type="text/javascript" src="../lib/x2js.js"></script>
+	<script type="text/javascript" src="../lib/jszip.min.js"></script>
+	<script type="text/javascript" src="../lib/eaysjbig2.js"></script>
+	<script type="text/javascript" src="./EasyOFD.js"></script>
+  
+	
+</html>
+
+```
 
 ## 3.2 VUE使用
 
