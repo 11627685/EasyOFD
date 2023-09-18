@@ -87,7 +87,57 @@ OFD文件的应用广泛，包括电子出版、电子文档管理、电子归�
 ```
 
 ## 3.2 VUE使用
+```html
+ 
+npm create vue@latest
 
+//依赖
+npm i jszip
+npm i x2js
+npm i jb2
+
+//本程序
+npm i easyofd
+
+
+<script setup>
+import EasyOFD from "easyofd";
+import { onMounted } from 'vue'
+
+onMounted(() => {
+  let yourElement=document.getElementById("1111111");
+  let ofd=new EasyOFD('myofdID', yourElement);
+  
+  //ofd.loadFromBlob(blob);
+
+})
+
+
+</script>
+
+<template>
+      <div id="1111111"> </div>
+      
+</template>
+
+<style >
+ .OfdButton{
+	  padding: 10px 20px;
+	  background-color: #007bff;
+	  color: #fff;
+	  border: none;
+	  border-radius: 5px;
+	  cursor: pointer;
+	  margin-right: 10px;
+	}
+</style>
+
+
+
+	
+</html>
+
+```
 
 
 # 四、展示样例
