@@ -1,3 +1,4 @@
+目前最新版本1.0.6
 # EasyOFD
  an ofd file web shower  
   
@@ -36,7 +37,6 @@ OFD文件的应用广泛，包括电子出版、电子文档管理、电子归�
 标准链接：https://openstd.samr.gov.cn/bzgk/gb/newGbInfo?hcno=EBF1360C272E40E7A8B9B32ED0724AB1
 
 # 三、使用方法  
-## 3.1 HTML使用
 ```html
 <!DOCTYPE html>
 <html>
@@ -76,30 +76,37 @@ OFD文件的应用广泛，包括电子出版、电子文档管理、电子归�
   </div>
 	<body>
 	</body>
-	<script type="text/javascript" src="../lib/x2js.js"></script>
-	<script type="text/javascript" src="../lib/jszip.min.js"></script>
-	<script type="text/javascript" src="../lib/eaysjbig2.js"></script>
+	 
+	<script type="text/javascript" src="./lib/x2js.js"></script>
+	<script type="text/javascript" src="./lib/jszip.min.js"></script>
+	<script type="text/javascript" src="./lib/eaysjbig2.js"></script>
+	<script type="text/javascript" src="./lib/opentype.min.js"></script>
 	<script type="text/javascript" src="./EasyOFD.js"></script>
+	 
   
 	
 </html>
 
 ```
 
-## 3.2 VUE使用
+## 四、 VUE使用
+
 ```html
- 
+
 npm create vue@latest
 
 //依赖
 npm i jszip
 npm i x2js
 npm i jb2
+npm i opentype //字体图元的支持
 
 //本程序
 npm i easyofd
 
+```
 
+```html
 <script setup>
 import EasyOFD from "easyofd";
 import { onMounted } from 'vue'
@@ -133,33 +140,31 @@ onMounted(() => {
 </style>
 
 
-
-	
-</html>
-
 ```
-
-
-# 四、展示样例
-![在这里插入图片描述](https://img-blog.csdnimg.cn/1c6036180a7f4984afc152ac7d9383a1.png)
-## 4.1 增值税发票
-
-![在这里插入图片描述](https://img-blog.csdnimg.cn/9d7e7c7771304b1cb94cc999ac80ed81.png)
-
-## 4.2 南航航空行程单
-![在这里插入图片描述](https://img-blog.csdnimg.cn/d228c0bf83684f858e264b0128e8fdcc.png)
-## 4.3 铁路电子客票
-![在这里插入图片描述](https://img-blog.csdnimg.cn/67a97d94a0804b618c0033bc57c92746.png)
-## 4.4 银行回单
-![在这里插入图片描述](https://img-blog.csdnimg.cn/c208541b9c7f459592f25aa40e807432.png)
-## 4.5 银行对账单
-![在这里插入图片描述](https://img-blog.csdnimg.cn/d923b1bb08414d728356310e7aabc357.png)
-
 
 # 五、联系我
 邮箱: 11627685@qq.com
 
-# 请作者喝杯咖啡
+# 六、展示示例
+
+## 6.1、增值税发票 
+![在这里插入图片描述](https://img-blog.csdnimg.cn/9d7e7c7771304b1cb94cc999ac80ed81.png)
+## 6.2、南航航空行程单
+![在这里插入图片描述](https://img-blog.csdnimg.cn/d228c0bf83684f858e264b0128e8fdcc.png)
+## 6.3、铁路电子客票
+![在这里插入图片描述](https://img-blog.csdnimg.cn/67a97d94a0804b618c0033bc57c92746.png)
+## 6.4、 银行回单
+![在这里插入图片描述](https://img-blog.csdnimg.cn/c208541b9c7f459592f25aa40e807432.png)
+## 6.5、 银行对账单
+![在这里插入图片描述](https://img-blog.csdnimg.cn/d923b1bb08414d728356310e7aabc357.png)
 
 
+# 七、更新记录
 
+## 7.1、1.0.6
+   (1)增加了图元的支持 opentype
+
+   (2)优化了CTM问题
+
+   (3)增加了备注单元的支持，包括内部的图片和文字展示
+   
