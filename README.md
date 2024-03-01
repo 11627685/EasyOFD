@@ -99,7 +99,7 @@ npm create vue@latest
 npm i jszip
 npm i x2js
 npm i jb2
-npm i opentype //字体图元的支持
+npm i opentype.js //字体图元的支持
 
 //本程序
 npm i easyofd
