@@ -1,4 +1,4 @@
-目前最新版本1.0.7
+目前最新版本1.0.8
 # EasyOFD
  an ofd file web shower  
   
@@ -99,7 +99,7 @@ npm create vue@latest
 npm i jszip
 npm i x2js
 npm i jb2
-npm i opentype //字体图元的支持
+npm i opentype.js //字体图元的支持
 
 //本程序
 npm i easyofd
@@ -169,5 +169,7 @@ onMounted(() => {
    (3)增加了备注单元的支持，包括内部的图片和文字展示
 ## 7.1、1.0.7  
    1、优化图片读取路径问题
-   
    2、优化展示内容超出后比例问题
+## 7.2、1.0.8  
+   1、修复多背景模板情况
+   2、pathobjct的线段偏移和样式
