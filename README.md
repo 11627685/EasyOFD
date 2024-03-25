@@ -1,7 +1,10 @@
 目前最新版本1.0.8
 # EasyOFD
  an ofd file web shower  
-  
+
+# 主页
+http://www.easyofd.cn/
+
  一个在web端展示ofd文件的控件，该控件基于CANVAS绘制。  
  该控件使用了以下外部程序  
  1）jszip：解决解压文件。  
