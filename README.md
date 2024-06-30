@@ -1,10 +1,13 @@
-目前最新版本1.0.8
+目前最新版本1.0.9
+
+# 网站主页
+http://wiki.easyofd.cn/zh/home
+
+JAVA版本的easyofd敬请期待。
+
+
 # EasyOFD
- an ofd file web shower  
-
-# 主页
-http://www.easyofd.cn/
-
+ an ofd file web shower   
  一个在web端展示ofd文件的控件，该控件基于CANVAS绘制。  
  该控件使用了以下外部程序  
  1）jszip：解决解压文件。  
@@ -176,3 +179,8 @@ onMounted(() => {
 ## 7.2、1.0.8  
    1、修复多背景模板情况
    2、pathobjct的线段偏移和样式
+## 7.2、1.0.9
+   1、展示绘制参数
+   2、展示遗留问题
+   3、配合java版本easyofd部分调整
+    
