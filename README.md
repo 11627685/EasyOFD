@@ -3,7 +3,7 @@
 # 网站主页
 http://wiki.easyofd.cn/zh/home
 
-JAVA版本的easyofd敬请期待。
+JAVA版本：http://wiki.easyofd.cn/zh/JAVA
 
 
 # EasyOFD
