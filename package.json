@@ -1,0 +1,16 @@
+{
+  "name": "easyofd",
+  "version": "1.2.1",
+  "description": "ofd file show",
+  "main": "easyofd.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ofd",
+    "show",
+    "web"
+  ],
+  "author": "11627685@qq.com",
+  "license": "Apache-2.0"
+}
